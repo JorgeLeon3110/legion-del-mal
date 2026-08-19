@@ -5,6 +5,7 @@
 3. Brainic
 4. jocker
 5: Harley
+6. Darkside
 
 
 ## notas 
