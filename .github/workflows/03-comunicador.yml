@@ -37,8 +37,8 @@ on:
         type: choice 
         options: 
           - eyes 
-          - cow
-          - tongue
+          - elephant-in-snake
+          - kiss
 jobs:
   transmitir-mensaje:
     runs-on: ubuntu-latest
