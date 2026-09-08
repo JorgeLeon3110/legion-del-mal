@@ -36,4 +36,11 @@ jobs:
   transmitir-mensaje:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Imprimir variables
+        run: | 
+          echo "Inputs:"
+          echo ""
+          echo "Villano: ${{ inputs.villano}}"
+          echo "mensaje: ${{ inputs.mensaje}}"
+          echo "prioridad: ${{ inputs.prioridad}}"
+          
