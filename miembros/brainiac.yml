@@ -6,7 +6,7 @@ nombre: "Brainiac"
 designacion: "Brainiac - Coleccionista de Mundos"
 universo: DC
 rango: "Director de tecnología"
-estado: activo
+estado: inactivo
 
 perfil:
   identidad_publica: "Ninguna. La mayoría de la humanidad no sabe que existe."
