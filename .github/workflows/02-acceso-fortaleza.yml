@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: El agente llega a la fortaleza
+      - name: "El agente llega a la fortaleza"
         run: | 
           echo "Agente ${{ github.actor}} llega a la fortaleza"
           echo ""
@@ -15,3 +15,18 @@ jobs:
           ls -la
           echo ""
           echo " Pero que paso no hay nada "
+      
+      - name: "Brianiac le da acceso ""
+        uses: actions/checkout@v4
+
+      - name: "Ahora si vamos a revisar los archivos de la legion  ""
+        run: | 
+          ls -la
+          echo "funciona"
+          echo ""
+          echo " Planes: "
+          ls planes/
+          echo " Villanos: "
+          ls villanos/
+          echo " Inteligencia: "
+          ls inteligencia/
