@@ -1,6 +1,8 @@
 name: Acceso a la fortaleza
 
-on: push 
+on: 
+  workflow_dispatch :
+#push 
 
 jobs:
   acceso-a-Fortaleza:
