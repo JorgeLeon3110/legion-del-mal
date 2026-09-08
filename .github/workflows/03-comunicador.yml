@@ -31,7 +31,14 @@ on:
           - Alto
           - Urgente
 
-
+      cow_message: 
+        description: "Tipo de mensaje"
+        required: true
+        type: choice 
+        options: 
+          - eyes 
+          - cow
+          - tongue
 jobs:
   transmitir-mensaje:
     runs-on: ubuntu-latest
@@ -50,7 +57,7 @@ jobs:
           echo "prioridad: ${{ inputs.prioridad}}"
           echo "fecha: $( date -u + "%d/%m/%Y - %H:%M UTC" )"
           echo "---------------Mensaje --------------"
-          cowsay -f eyes "${{ inputs.mensaje}}" 
+          cowsay -f "${{inputs.cow_message}}" "${{ inputs.mensaje}}" 
           echo " ... "
 
           
