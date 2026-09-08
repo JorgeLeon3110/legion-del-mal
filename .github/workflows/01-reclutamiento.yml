@@ -11,3 +11,15 @@ jobs:
         run: echo "Soy Lex y lider de la legion del mal"
       - name: Fin del agente
         run: echo "fin de la presentacion"
+      - name: Reporte de identidad
+        run: | 
+          echo "Reporte de identidad"
+          echo "===================="
+          echo " "
+          echo " Nombre clave: ${{ github.actor}}"
+          echo " "
+          echo " Contexto de github  "
+          echo " Repo ${{ github.repository}}  "
+          echo " Operacion ${{ github.sha}}  "
+          echo " Operacion ${{ toJson(github)}}  "
+
