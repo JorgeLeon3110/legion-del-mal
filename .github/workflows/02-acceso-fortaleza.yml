@@ -16,7 +16,7 @@ jobs:
           echo ""
           echo " Pero que paso no hay nada "
       
-      - name: "Brianiac le da acceso ""
+      - name: "Brianiac le da acceso "
         uses: actions/checkout@v4
 
       - name: "Ahora si vamos a revisar los archivos de la legion  ""
